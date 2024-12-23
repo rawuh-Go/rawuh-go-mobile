@@ -1,0 +1,34 @@
+lanjut :
+
+1. belum bisa buat leave (tinggal cek di device) == sudah
+2. belum bisa update leave (api postman) == sudah
+3. lanjut di assignment == sudah
+4. cara biar ketika ada update seperti tugas langsung update,  == sudah
+tanpa di di hot reload dulu.(atau mungkin kalo udah dijalankan didevice 
+sudah otomatis refresh? soalnya di emulator harus di hot relod dulu untuk melihat perubahan.)
+
+====================================================================================
+
+5. membuat halaman web profile awal di welcome page web sebelum mengarah ke halaman login.
+6. api untuk create attendance(dengan logicnya). == sudah
+7. pada mobile, buat buat tampilan notifikasi screen: == sudah
+ketika absen masuk ada widget diatas absen masuk, jika absen pulang ada widget diatas absen pulang.
+
+8. di mobile lanjut logic == tinggal test menggunakan device asli.
+
+absen masuk : klik foto -> membuka kamera frame (ada keterangan arahkan ke wajah) karena ada face detection. -> setelah ambil foto bisa submit presensi.
+absen pulang : klik foto -> membuka kamera frame (ada keterangan arahkan ke wajah) karena ada face detection. -> mengisi logbook(yang nanti akan tampil di todo list) setelah ambil foto bisa submit presensi.
+
+9. notifikasi di menu notifikasi. == tinggal di test menggunakan device asli.
+
+
+===========================================
+
+yang harus dicek ketika tes menggunakan device:
+1. semua unit sudah terload semua dari aplikasi.
+2. fitur notifikasi 
+3. presensi dengan face detection.
+
+=============================================
+
+1. singkronasi hari libur, hari minggu dan hari cuti di presnsi mobile.
